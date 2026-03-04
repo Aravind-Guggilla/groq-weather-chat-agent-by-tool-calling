@@ -1,4 +1,4 @@
-# Groq Weather Agent 🌦️
+# Groq Weather Chat Agent by Tool Calling 🌦️
 
 AI weather assistant built with:
 
