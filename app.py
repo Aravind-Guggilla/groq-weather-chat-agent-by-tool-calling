@@ -10,7 +10,8 @@ import requests
 import json
 
 load_dotenv()
-client = Groq(os.getenv("GROQ_API_KEY"))
+GROQ_API_KEY = os.getenv("GROQ_API_KEY")
+client = Groq(api_key = GROQ_API_KEY)
 
 # Weather Function
 def get_weather(location):
