@@ -90,9 +90,9 @@ demo = gr.Interface(
     fn = chat_with_weather_api,
     inputs = gr.Textbox(lines = 4,label = "Ask about the weather in any city you want!",
                          placeholder = "e.g., What's the weather like in London?"),
-    outputs = gr.Textbox(lines = 7, label = "Weather Information"),
+    outputs = gr.Textbox(lines = 6, label = "Weather Information"),
     title = "Weather Chatbot",
-    description = "Ask about the current weather in any city and get real-time information and chat with agent!"
+    description = "Ask about the current weather in any city and get real-time data and also chat with agent!"
 )
 
 demo.launch(debug = True)
